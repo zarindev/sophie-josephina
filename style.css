@@ -46,7 +46,7 @@ header{
 }
 .link-style{
     text-decoration: none;
-    color: white;
+    color: #FAF3ED;
     font-family: 'Nunito Sans Semibold';
     font-size: 13px;
     letter-spacing: 2px;
@@ -66,14 +66,16 @@ header{
     margin-right: 85px;
 }
 .link-podcast{
-    margin-left: 60px;
-    margin-right: 55px;
+    margin-left: 40px;
+    margin-right: 45px;
 }
 .link-work{
-    margin: 0px 50px ;
+    margin-left: 65px;
+    margin-right: 50px;
 }
 .link-instagram{
-    margin: 0px 50px ;
+    margin-left: 35px;
+    margin-right: 70px;
 }
 .navbar-sec{
     display: flex;
@@ -105,7 +107,7 @@ header{
 .horizontal-line{
     width: 255px;
     height: 2px;
-    background: white;
+    background: #FAF3ED;
     margin-bottom: 20px;
 }
 .hero-text{
@@ -148,4 +150,19 @@ header{
     font-size: 28px;
     padding-top: 11px;
     padding-left: 18px;
+}
+main{
+    background: #F8EDE4;
+    padding-bottom: 150px;
+}
+.main-sec-first{
+    margin-top: 290px;
+    padding-top: 100px;
+    color: #60100F;
+}
+.second-img{
+    margin-right: 130px;
+}
+.second-heading{
+    font-family: 'TT Ramillas Extrabold';
 }
