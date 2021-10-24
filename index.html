@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#menu-icon').click(function(){
+                $('.navbar-links').toggleClass('show');
+            })
+        })
+    </script>
+    <title>SOPHIE JOSEPHINA</title>
+</head>
+<body>
+    <header class="d-flex justify-content-center header-back">
+        
+        <div class="navbar-sec">
+            <div class="horizontal-line float-start"></div>
+            <nav>
+                <ul class="navbar-links links-first">
+                    <li><a href="#" class="link-style link-home">HOME</a></li>
+                    <li><a href="#"  class="link-style link-about">ABOUT</a></li>
+                    <li><a href="#"  class="link-style link-courses">COURSES</a></li>
+                </ul>
+            </nav>
+            <a href="#"><img src="./images/SJ_PrimaryLogo-BW-SVG-01.png" alt="" srcset="" class="brand-logo"></a>
+            <nav>
+                <ul class="navbar-links links-sec">
+                    <li><a href="#" class="link-style link-podcast">PODCAST</a></li>
+                    <li><a href="#" class="link-style link-work">WORK WITH ME</a></li>
+                    <li><a href="#" class="link-style link-instagram"><i class="fab fa-instagram fa-lg" style="font-size: 30px;"></i></a></li>
+                </ul>
+            </nav>
+            <label id="menu-icon">
+                <i class="fas fa-bars"></i>
+            </label>
+            <div class="horizontal-line float-end"></div>
+        </div>
+
+    </header>
+
+    <div class="header-des">
+        <h1  class="hero-text" id="heading">Make love to all of life.</h1>
+        <p class="description">Through the power of masculine & feminine energy, unlock a life brimming with intimacy, abundance & electrifying connection.</p>
+        <div class="hero-btn d-flex mt-5">
+            <div class="hero-btn-div" ><a href="#" class="hero-btn-a">
+                <div class="hero-btn-text" >
+                    <p>IT'S TIME TO GO DEEPER</p>
+                </div>
+            </div>
+                <div>
+                    <i class="fas fa-arrow-right hero-btn-icon" ></i></a>
+                </div>
+        </div>
+    </div>
+</body>
+</html>

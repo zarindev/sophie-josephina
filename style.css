@@ -1,0 +1,151 @@
+@font-face{
+    font-family: 'Nunito Sans Regular';
+    src: url(./FONTS/NunitoSans-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'Nunito Sans Semibold';
+    src: url(./FONTS/NunitoSans-SemiBold.ttf);
+}
+
+@font-face{
+    font-family: 'TT Ramillas Extrabold';
+    src: url(./FONTS/TypeType\ -\ TT\ Ramillas\ ExtraBold.ttf);
+}
+
+@font-face{
+    font-family: 'Hatton Medium';
+    src: url(./FONTS/Hatton/Hatton-Medium.otf);
+}
+
+@font-face {
+    font-family: 'Hatton Semibold';
+    src: url(./FONTS/Hatton/Hatton-Semibold.otf);
+}
+
+@font-face {
+    font-family: 'Hatton Ultralight';
+    src: url(./FONTS/Hatton/Hatton-Ultralight.otf);
+}
+
+body{
+    background-image: url("./images/Sophie-KL-051_v2.jpg");
+    width: 1920px;
+    height: 1081px;
+    background-repeat: no-repeat;
+}
+header{
+    background-image: linear-gradient(#000000, #54545400);
+    width: 1920px;
+    height: 505px;
+}
+.brand-logo{
+    width: 205.56px;
+    height: 67.62px;
+    margin-left: 55px;
+}
+.link-style{
+    text-decoration: none;
+    color: white;
+    font-family: 'Nunito Sans Semibold';
+    font-size: 13px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    
+}
+.link-home{
+    margin-left: 50px;
+    margin-right: 85px;
+}
+.link-about{
+    margin-left: 15px;
+    margin-right: 90px;
+}
+.link-courses{
+    margin-left: 5px;
+    margin-right: 85px;
+}
+.link-podcast{
+    margin-left: 60px;
+    margin-right: 55px;
+}
+.link-work{
+    margin: 0px 50px ;
+}
+.link-instagram{
+    margin: 0px 50px ;
+}
+.navbar-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.navbar-links{
+    list-style: none;
+}
+.navbar-links li{
+    display: inline-block;
+}
+.navbar-links li a{
+    transition: all 0.3s ease 0s;
+}
+.navbar-links li a:hover{
+    color: grey;
+}
+#menu-icon{
+    color: grey;
+    font-size: 35px;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+.horizontal-line{
+    width: 255px;
+    height: 2px;
+    background: white;
+    margin-bottom: 20px;
+}
+.hero-text{
+    font-family: 'TT Ramillas Extrabold';
+    color: #DEB9A4;
+    font-size: 130px;
+    margin-left: 180px;
+    margin-top: -250px;
+    width: 800px;
+}
+.description{
+    color: #FAF3ED;
+    font-size: 26px;
+    margin-left: 330px;
+    width: 574px;
+}
+.hero-btn{
+    width: 357.83px;
+    height: 56.93px;
+    background: #44554A;
+    border: 2px solid #FAF3ED;
+    margin-left: 330px;
+}
+.hero-btn-a{
+    text-decoration: none;
+    color: #FAF3ED;
+    letter-spacing: 2px; 
+    font-size: 12px;
+}
+.hero-btn-div{
+    border-right: 2px solid #FAF3ED;
+    padding: 0px 50px;
+}
+.hero-btn-text{
+    font-family: "Nunito Sans Semibold";
+    padding-top: 17px;
+}
+.hero-btn-icon{
+    color: #FAF3ED;
+    font-size: 28px;
+    padding-top: 11px;
+    padding-left: 18px;
+}
