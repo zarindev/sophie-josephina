@@ -58,7 +58,7 @@ header{
     margin-right: 85px;
 }
 .link-about{
-    margin-left: 15px;
+    margin-left: 10px;
     margin-right: 90px;
 }
 .link-courses{
@@ -138,7 +138,7 @@ header{
     font-size: 12px;
 }
 .hero-btn-div{
-    border-right: 2px solid #FAF3ED;
+    border-right: 2px solid #faf3edd7;
     padding: 0px 50px;
 }
 .hero-btn-text{
@@ -157,12 +157,203 @@ main{
 }
 .main-sec-first{
     margin-top: 290px;
-    padding-top: 100px;
-    color: #60100F;
+    padding-top: 200px;
+}
+.vertical-line{
+    margin-left: 240px;
+    height: 260px;
+    width: 2px;
+    background: #80423F;
 }
 .second-img{
     margin-right: 130px;
 }
 .second-heading{
     font-family: 'TT Ramillas Extrabold';
+    color: #60100F;
+    font-size: 80px;
+    margin-left: 100px;
+    margin-right: 150px;
+    margin-top: 60px;
+}
+.second-description{
+    margin-top: 100px;
+}
+.second-description-text{
+    font-family: 'Hatton Medium';
+    color: #80423F;
+    font-size: 28px;
+    margin-left: 40px;
+    text-transform: uppercase;
+    margin-right: -170px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    line-height: 2;
+    width: 890px;
+}
+.third-img{
+    margin-left: -135px;
+    width: 945px;
+}
+
+.para-one, .para-two{
+    font-family: 'Nunito Sans Regular';
+    font-size: 24px;
+    width: 606px;
+    margin-left: 185px;
+    margin-top: 30px;
+}
+.second-sec-text{
+    margin-top: 250px;
+}
+.vertical-line-two{
+    height: 90px;
+    width: 2px;
+    background: #80423F;
+    margin-right: 40px;
+}
+
+.third-description-text{
+    font-family: 'Hatton Medium';
+    color: #80423F;
+    font-size: 28px;
+    letter-spacing: 1px;
+    width: 600px;
+    text-transform: uppercase;
+}
+.third-description{
+    margin-left: 223px;
+    margin-top: 100px;
+}
+.second-btn{
+    width: 340.83px;
+    height: 56.93px;
+    border: 2px solid black;
+    margin-left: 185px;
+}
+.second-btn-a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 2px; 
+    font-size: 12px;
+}
+.second-btn-div{
+    border-right: 2px solid black; 
+    padding: 0px 40px;
+ }
+ .second-btn-text{
+    font-family: "Nunito Sans Semibold";
+    padding-top: 20px;
+}
+.second-btn-a:hover{
+    color: grey;
+}
+.second-btn-icon{
+    color: black; 
+    padding-top: 15px; 
+    padding-left: 22px; 
+    font-size: 26px;
+}
+.second-btn-margin{
+    margin-top: 0px;
+}
+.black-div{
+    background: #000000;
+}
+.vertical-text{
+    color: white;
+    font-family: "Nunito Sans Semibold";
+    font-size: 32px;
+    writing-mode:vertical-lr;
+    transform: rotate(180deg);
+    margin-left: 120px;
+    margin-top: 150px;
+    letter-spacing: 10px;
+}
+.beside-vertical-text{
+    color: #ECD5C8;
+    font-family: 'TT Ramillas Extrabold';
+    font-size: 80px;
+    margin-top: 150px;
+    margin-left: 20px;
+    width: 1100px;
+}
+.side-img{
+    margin-left: 1548px;
+    margin-top: -750px;
+}
+.side-img-two{
+    background-image: url("./images/rose-ink_0001_2.png");
+    background-repeat: no-repeat;
+    margin-top: -250px;
+    margin-left: -280px;
+}
+.img-two{
+    margin-left: 425px;
+    margin-top: 200px;
+}
+.vertical-line-three{
+    height: 180px;
+    width: 2px;
+    background: #DEB9A4;
+    margin-right: 40px;
+}
+.fourth-description-text{
+    font-family: 'Hatton Medium';
+    font-size: 26px;
+    color: #DEB9A4;
+    text-transform: uppercase;
+    width: 900px;
+    line-height: 2;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+}
+.fourth-description{
+    margin-left: 850px;
+    margin-top: -620px;
+}
+.another-description{
+    color: #FAF3ED;
+    font-family: 'Nunito Sans Regular';
+    font-size: 24px;
+    width: 606px;
+    margin-left: 960px;
+    margin-top: 50px;
+}
+.third-btn{
+    width: 335px;
+    height: 56.93px;
+    border: 2px solid #FAF3ED;
+    margin-left: 970px;
+}
+.third-btn-a{
+    text-decoration: none;
+    color: #FAF3ED;
+    letter-spacing: 2px; 
+    font-size: 12px;
+}
+.third-btn-div{
+    border-right: 2px solid #FAF3ED; 
+    padding: 0px 55px;
+ }
+.third-btn-text{
+    font-family: "Nunito Sans Semibold";
+    padding-top: 20px;
+}
+.third-btn-a:hover{
+    color: grey;
+}
+.third-btn-icon{
+    color: #FAF3ED; 
+    padding-top: 15px; 
+    padding-left: 20px; 
+    font-size: 26px;
+}
+.third-btn-margin{
+    margin-top: 60px;
+}
+.side-img-three{
+    margin-left: 1570px;
+    margin-top: -1130px;
+    width: 350px;
 }
